@@ -36,3 +36,6 @@ const second = (a,b) => {
   // 내부 함수에서 리턴된 값에 a와 b를 더한 값을 리턴
   return inner() + a + b;
 }
+
+const secondExample = second(3,4);
+console.log(secondExample);
