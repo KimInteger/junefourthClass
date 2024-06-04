@@ -31,6 +31,7 @@ function first(a,b){
     // 아래는 first() 함수의 지역변수 local을 가져온 것
     // inner() 함수의 입장에서는 지역변수가 아닌, 전역변수처럼 보임
     console.log(local);
+    // * 상위객체(?)인 first함수의 local을 그대로 참조한다.
     
     return this.value;
   }
